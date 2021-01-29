@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.splide__slide {
+    border-radius: 5px;
+}
