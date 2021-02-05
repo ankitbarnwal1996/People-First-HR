@@ -5,8 +5,8 @@
  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" sizes="50x40" href="img/logo-7.png">
-    <link rel="icon" type="image/png" sizes="50x40" href="img/logo-7.png">
+  <!--<link rel="icon" type="image/png" sizes="50x40" href="img/logo-7.png">-->
+    <!--<link rel="icon" type="image/png" sizes="50x40" href="img/logo-7.png">-->
     <link rel="stylesheet" href="./build/tailwind.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -16,20 +16,19 @@
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
     
     <style>
+ @media(max-width:1330px){
 
-    img {
-        display: ;
-        margin-left: ;
-        margin-right: ;
-        margin-top: 0px;
+ .info a { display:hidden ;
     }
-    
+     
+ }
+
+   
     .fa {
         padding: 10px;
         font-size: 20px;
@@ -103,36 +102,36 @@
 
 
 <nav  class="navbar navbar-expand-md bg-dark navbar-dark">
-    <img style="padding-top: 30px;" class="h-full w-auto sm:h-full" src="/var/www/html/People-First-HR-main/public/img/logo-7.png" alt="Logo">
+    <img style="padding-top: 30px;" class="h-full w-auto sm:h-full" src="img/logo-7.png" alt="Logo">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul style ="padding-left: 201px;" class="navbar-nav">
       <li class="nav-item">
-        <a   class="nav-link" href="/index.html ">home </a>
+        <a  style="color: cornsilk;" class="nav-link" href="/index.html ">home </a>
       </li>
       <li class="nav-item">
-        <a   class="nav-link" href="/aboutus.html">about us</a>
+        <a   style="color: cornsilk;" class="nav-link" href="/aboutus.html">about us</a>
       </li>
       <li class="nav-item">
-        <a   class="nav-link" href="/services.html">service</a>
+        <a  style="color: cornsilk;" class="nav-link" href="/services.html">service</a>
       </li>  
       <li class="nav-item">
-        <a  class="nav-link" href="/industry-practices.html">Industry Practice</a>
+        <a style="color: cornsilk;" class="nav-link" href="/industry-practices.html">Industry Practice</a>
       </li>  
       <li class="nav-item">
-        <a  class="nav-link" href="/contact.html">contact us</a>
+        <a  style="color: cornsilk;" class="nav-link" href="/contact.html">contact us</a>
       </li>          
     </ul>
   </div> 
   
-  <div>
+  <div class ="info">
       <a style="background-color: rgb(95, 184, 11); color:black; border-radius: 5px;"  class="nav-link" href="/services.html"><b>service</b></a>
       <br>
       <a style="background-color: rgb(95, 184, 11); color:white; border-radius: 5px;"  class="nav-link" href="/contact.html"><b>contact us</b></a>
   </div>
-  
+
 
   
 
@@ -151,7 +150,9 @@
       </div>
      
 </div>
-</nav>
+
+
+
 
             <!--
               Mobile menu, show/hide based on menu open state.
